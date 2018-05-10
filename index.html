@@ -17,24 +17,26 @@
       #footer p { margin: 0 auto; text-align: center; }
 
       h2 { margin: 0px; margin-bottom: 15px; }
+      h4 { margin: 0px; margin-top: -10px; font-color: #fff; margin-bottom: 20px; font-size: 12px; }
 
-      div#header a:link { color: #44f; text-decoration:none; }
-      div#header a:visited { color: #44f; text-decoration:none; }
-      div#header a:hover { color: black; text-decoration:none; }
 
-      div#main a:link { color: #44f; text-decoration:none; }
-      div#main a:visited { color: #44f; text-decoration:none; }
-      div#main a:hover { color: black; text-decoration:underline; }
+      div#header a:link { color: #08529b; text-decoration:none; }
+      div#header a:visited { color: #660066; text-decoration:none; }
+      div#header a:hover { color: #660066; text-decoration:none; }
+
+      div#main a:link { color: #08529b; text-decoration:none; }
+      div#main a:visited { color: #660066; text-decoration:none; }
+      div#main a:hover { color: #660066; text-decoration:underline; }
       div#main ul li { margin: 0px 0 15px; } 
       div#main ul ul li { margin: 5px 0 5px; font-family:serif; }
 	  div#main ul li li{ margin: 5px 0 5px; font-family:Palatino Linotype; }
 
-      div#footer a:link { color: #44f; text-decoration:none; }
-      div#footer a:visited { color: #44f; text-decoration:none; }
-      div#footer a:hover { color: black; text-decoration:underline; }
+      div#footer a:link { color:#08529b; text-decoration:none; }
+      div#footer a:visited { color:#660066; text-decoration:none; }
+      div#footer a:hover { color: #660066; text-decoration:underline; }
 
-      div.paper { clear: both; margin: 0; margin-bottom: -50px; height: 160px; padding: 10px; border: none #666666; font-size: 15px; }
-      div.paper img { float: left; width: 180px; height: 100px; }
+      div.paper { clear: both; margin: 0; margin-bottom: -50px; height: 300px; padding: 10px; border: none #666666; font-size: 15px; }
+      div.paper img { float: left; width: 180px; height: 110px; }
       div.paper div { padding-left: 200px; }
       .paper_title { font-size: 15px; margin: 0 0 6 0; }
       .authors { font-size: 14px; margin: 0 0 6 0; }
@@ -70,8 +72,8 @@
 	<h1>Yujing Sun</h1>
 	<br>
 	Postdoctoral Fellow <br>
+	Department of Computer Science <br>
 	The University of Hong Kong <br>
-	Room 518, Haking Wong Building, HKU, Pokfulam Road <br>
 	E-mail: yjsun at cs dot hku dot hk<br>
 	<br>
 	
@@ -93,6 +95,7 @@
 	  
      <div class="section">
 	<h3>Publications</h3>
+	<i><h4>Notice that most, if not all, of the final versions of these papers are copyrighted. Use these preprints at your own risk. </h4></i>
 
 	<div class="paper">
 	  <img src="./teasers/imageDemoire.jpg">
@@ -101,7 +104,7 @@
 	      <b>Moire Photo Restoration Using Multiresolution Convolutional Neural Networks</b><br>
 	    </p>
 	    <p class="authors">
-	      <i><b>Yujing Sun</b></i>, Yizhou Yu, Wenping Wang.<br>
+	      <i><b>Yujing Sun</b></i>, <a href="http://i.cs.hku.hk/~yzyu/">Yizhou Yu</a>, <a href="http://i.cs.hku.hk/~wenping/">Wenping Wang</a>.<br>
 	    </p>	    
 	    <i>To appear in IEEE Transactions on Image Processing</i> 
 		<br>
@@ -109,7 +112,9 @@
 		[<a href="./publications/imageDemoire.pdf">Paper</a>] 
 		[<a href="./suppMaterials/imageDemoire.pdf">Supplemental Material</a>] 
 		[benchmark (Coming Soon)]
-		[code (Coming Soon)] 
+		[code (Coming Soon)] <br> <br>
+
+				<i>Abstract: Digital cameras and mobile phones enable us to conveniently record precious moments. While digital image quality is constantly being improved, taking high-quality photos of digital screens still remains challenging because the photos are often contaminated with moire patterns, a result of the interference between the pixel grids of the camera sensor and the device screen. Moire patterns can severely damage the visual quality of photos. However, few studies have aimed to solve this problem. In this paper, we introduce a novel multiresolution fully convolutional network for automatically removing moire patterns from photos. We also create a large-scale benchmark dataset with 100,000+ image pairs for investigating and evaluating moire pattern removal algorithms. Our network achieves state-of-the-art performance on this dataset in comparison to existing learning architectures for image restoration problems.</i>
 
 	  </div>
 	</div>
@@ -122,11 +127,16 @@
 	      <b>Image Structure Retrieval via L0 Minimization</b><br>
 	    </p>
 	    <p class="authors">
-	      <i><b>Yujing Sun</b></i>, Scott Schaefer, Wenping Wang.<br>
+	      <i><b>Yujing Sun</b></i>, <a href="http://faculty.cs.tamu.edu/schaefer/">Scott Schaefer</a>, <a href="http://i.cs.hku.hk/~wenping/">Wenping Wang</a>.<br>
 	    </p>	    
 	    <i>To appear in IEEE Transactions on Visualization and Computer Graphics</i> 
 		<br>
-		[<a href="./publications/l0tsmooth.pdf">Paper</a>]
+		[<a href="./publications/l0tsmooth.pdf">Paper</a>] <br> <br>
+
+
+				<i>Abstract: Retrieving salient structure from textured images is an important but difficult problem in computer vision because texture, which can be irregular, anisotropic, non-uniform and complex, shares many of the same properties as structure. Observing that salient structure in a textured image should be piece-wise smooth, we present a method to retrieve such structures using an L0 minimization of a modified form of the relative total variation metric. Thanks to the characteristics shared by texture and small structures, our method is effective at retrieving structure based on scale as well. Our method outperforms state-of-art methods in texture removal as well as scale-space filtering. We also demonstrate our method’s ability in other applications such as edge detection, clip art compression artifact removal, and inverse half-toning. </i>
+
+
 
 	  </div>
 	</div>
@@ -138,11 +148,14 @@
 	      <b>Image Tagging by Joint Deep Visual-Semantic Propagation</b><br>
 	    </p>
 	    <p class="authors">
-	      Yuexin Ma, Xinge Zhu, <i><b>Yujing Sun</b></i>, Bingzheng Yan.<br>
+	      <a href="http://mayuexin.me/aboutme.html">Yuexin Ma</a>, <a href="http://zhuxinge.me/aboutme.html">Xinge Zhu</a>, <i><b>Yujing Sun</b></i>, Bingzheng Yan.<br>
 	    </p>	    
 	    <i>Proceedings of PCM 2017 </i> 
 		<br>
-		[<a href="./publications/imageTagging.pdf">Paper</a>]
+		[<a href="./publications/imageTagging.pdf">Paper</a>] <br><br>
+
+				<i> Abstract: Imagetagginghasattractedmuchresearchinterestduetoits wide applications. Many existing methods have gained impressive results, however, they have two main limitations: 1) only focus on tagging im- ages, but ignore the tags’ influences on visual feature modeling. 2) model the tag correlation without considering visual contents of image. In this paper, we propose a joint visual-semantic propagation model (JVSP) to address these two issues. First, we leverage a joint visual-semantic modeling to harvest integrated features which can accurately reflect the relationship between tags and image regions. Second, we introduce a visual-guided LSTM to capture the co-occurrence relation of the tags. Third, we also design a diversity loss to enforce that our model learns to focus on different regions. Experimental results on three challenging datasets demonstrate that our proposed method leads to significant per- formance gains over existing methods. </i>
+
 	  </div>
 	</div>
 	
@@ -154,10 +167,12 @@
 	      <b>Denoising Point Set via L0 Minimization</b><br>
 	    </p>
 	    <p class="authors">
-	      <i><b>Yujing Sun</b></i>, Scott Schaefer, Wenping Wang.<br>
+	      <i><b>Yujing Sun</b></i>, <a href="http://faculty.cs.tamu.edu/schaefer/">Scott Schaefer</a>, <a href="http://i.cs.hku.hk/~wenping/">Wenping Wang</a>.<br>
 	    </p>	    
 	    <i>Computer Aided Geometric Design, Vol. 35 (2015), pp. 2-15 (Proceedings of GMP 2015) </i> <br> 
-		[<a href="./publications/l0PointDenoise.pdf">Paper</a>] 
+		[<a href="./publications/l0PointDenoise.pdf">Paper</a>] <br><br>
+
+				<i> Abstract: We present an anisotropic point cloud denoising method using L0 minimization. The L0 norm directly measures the sparsity of a solution, and we observe that many common objects can be defined as piece-wise smooth surfaces with a small number of features. Hence, we demonstrate how to apply an L0 optimization directly to point clouds, which produces sparser solutions and sharper surfaces than either the L1 or L2 norms. Our method can faithfully recover sharp features while at the same time smoothing the remaining regions even in the presence of large amounts of noise. </i>
 	  </div>
 	</div>
 	
