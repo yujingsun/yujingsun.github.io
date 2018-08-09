@@ -2,7 +2,7 @@ Moire Photo Benchmark
 
 The uncontaminated reference images in our benchmark come from the validation images and testing images of 
 ImageNet ISVRC 2012 dataset (http://www.image-net.org/challenges/LSVRC/2012/). We DO NOT own
-copyright of the uncontaminated reference images in our benchmark.
+copyright of the images in our benchmark.
 
 
 To access our dataset, you need to sign up for an ImageNet account first and forward us (yjsun@cs.hku.hk) the email that you are 
