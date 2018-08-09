@@ -1,15 +1,24 @@
 Moire Photo Benchmark
 
----------------------------------------------------------------------------------------------------------------
+The uncontaminated reference images in our benchmark come from the validation images and testing images of 
+ImageNet ISVRC 2012 dataset (http://www.image-net.org/challenges/LSVRC/2012/). We DO NOT own
+copyright of the uncontaminated reference images in our benchmark.
+
+
+To access our dataset, you need to sign up for an ImageNet account first and forward us (yjsun@cs.hku.hk) the email that you are 
+granted to access the images in dataset ILSVRC2012 (please hide your login info). We will then send you our 
+dataset with registered moire and clean images.
+
+
+Researcher shall use the Database only for non-commercial research and educational purposes.
+
+-----------------------------------------------------------------------------------------------------------------------
 Please cite the following paper if you use this dataset:
 Sun, Yujing, Yizhou Yu, and Wenping Wang. "Moiré Photo Restoration Using Multiresolution Convolutional Neural Networks." 
 IEEE Transactions on Image Processing 27.8 (2018): 4160-4172.
----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 <1. Summary>
-The uncontaminated reference images in our benchmark come from the validation images and testing images of 
-ImageNet ISVRC 2012 dataset. (http://www.image-net.org/challenges/LSVRC/2012/)
-
 Of all the pairs of images, 90% is used as the traning data and 10% is used for validation and testing. 
 The images in folder source and folder target are registered as we stated in the paper.
 
@@ -44,3 +53,4 @@ phoneMode (2) and Display Monitor(3): val_part005, val_part006, val_part009
 phoneMode (3) and Display Monitor(1): test_part004, test_part009
 phoneMode (3) and Display Monitor(2): test_part005, test_part010
 phoneMode (3) and Display Monitor(3): test_part006, test_part011
+
